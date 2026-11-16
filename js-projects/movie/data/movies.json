@@ -1,0 +1,26 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "score": 9
+  },
+  {
+    "title": "Spirited Away",
+    "director": "Hayao Miyazaki",
+    "year": 2001,
+    "score": 8
+  },
+  {
+    "title": "Arrival",
+    "director": "Denis Villeneuve",
+    "year": 2016,
+    "score": 7
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "director": "Wes Anderson",
+    "year": 2014,
+    "score": 8
+  }
+]

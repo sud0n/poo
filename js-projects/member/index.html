@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f2f6f4">
+    <title>Team Directory</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">PEOPLE MAKE THE WORK</p>
+      <h1>Team Directory</h1>
+      <p class="intro">Meet the people behind every project.</p>
+      <div class="filter-row">
+        <label for="department-filter">Department</label>
+        <select id="department-filter">
+          <option value="all">All departments</option>
+        </select>
+      </div>
+      <p id="member-status" class="status" role="status" aria-live="polite"></p>
+      <section id="member-list" class="member-grid" aria-label="Team members"></section>
+    </main>
+    <script type="module" src="js/Main.js"></script>
+  </body>
+</html>

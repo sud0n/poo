@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Review the project brief",
+    "category": "Planning",
+    "completed": false
+  },
+  {
+    "text": "Create the first wireframes",
+    "category": "Design",
+    "completed": false
+  },
+  {
+    "text": "Set up the project structure",
+    "category": "Development",
+    "completed": true
+  },
+  {
+    "text": "Share progress with the team",
+    "category": "Planning",
+    "completed": false
+  }
+]

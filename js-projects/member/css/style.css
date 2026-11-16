@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 64px 24px;
+  background: #f2f6f4;
+  color: #1c2924;
+  font-family: Inter, "Segoe UI", sans-serif;
+}
+
+main {
+  width: min(100%, 980px);
+  margin: 0 auto;
+}
+
+.eyebrow {
+  color: #4a8f72;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+h1 {
+  margin: 12px 0;
+  font-size: clamp(2.4rem, 7vw, 3.8rem);
+}
+
+.intro,
+.status {
+  color: #68766f;
+}
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.filter-row label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.filter-row select {
+  min-width: 190px;
+  padding: 10px 36px 10px 12px;
+  border: 1px solid #d5e0d9;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.member-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid #e0e9e3;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.member-avatar {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 50%;
+  background: #dceee3;
+  color: #317052;
+  font-weight: 700;
+}
+
+.member-details {
+  min-width: 0;
+  flex: 1;
+}
+
+.member-details h2 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.member-position {
+  margin: 0 0 10px;
+  color: #68766f;
+  font-size: 0.88rem;
+}
+
+.member-department {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #f0f5f1;
+  color: #456b55;
+  font-size: 0.75rem;
+}
+
+.availability {
+  flex: 0 0 auto;
+  color: #9a5c51;
+  font-size: 0.75rem;
+}
+
+.availability::before {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  content: "";
+}
+
+.availability--available {
+  color: #32815a;
+}
+
+@media (max-width: 540px) {
+  body {
+    padding: 40px 18px;
+  }
+
+  .member-card {
+    flex-wrap: wrap;
+  }
+}

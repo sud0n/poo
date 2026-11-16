@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Avery Morgan",
+    "position": "Frontend Developer",
+    "department": "Development",
+    "availability": true
+  },
+  {
+    "name": "Jordan Lee",
+    "position": "Product Designer",
+    "department": "Design",
+    "availability": true
+  },
+  {
+    "name": "Riley Patel",
+    "position": "Backend Developer",
+    "department": "Development",
+    "availability": false
+  },
+  {
+    "name": "Casey Taylor",
+    "position": "Content Strategist",
+    "department": "Marketing",
+    "availability": true
+  }
+]
